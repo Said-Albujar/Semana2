@@ -10,6 +10,9 @@ namespace Ejercicios
     {
         static void Main(string[] args)
         {
+            Rectángulo rectangulo = new Rectángulo(5, 3);
+
+            Console.WriteLine($"Rectangulo: {rectangulo.CalculateArea()}");
         }
     }
 }
