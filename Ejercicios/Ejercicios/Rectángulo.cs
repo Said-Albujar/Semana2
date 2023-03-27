@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace Ejercicios
 {
-    class Rectángulo
+    class Rectángulo : Figura
     {
+        private float B;
+        private float A;
+
+        public Rectángulo(float B, float A)
+        {
+            this.B = B;
+            this.A = A;
+        }
+
+        public override float CalculateArea()
+        {
+            return B * A;
+        }
     }
 }
