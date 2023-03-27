@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicios
 {
-    class Rectángulo
+    class Rectángulo :  Figura
     {
         private float B;
         private float A;
